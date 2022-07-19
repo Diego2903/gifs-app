@@ -1,0 +1,119 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 60px;
+  font-weight: 600;
+  
+ 
+}
+
+.formSearch {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.encabezadoClose > .rojo {
+  background-color: rgba(255, 0, 0, 0.935);
+  color: #fff;
+  padding: 4px;
+  border: none;
+}
+
+.fa-solid {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 12px 15px;
+  cursor: pointer;
+
+}
+
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(97, 32, 158);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  margin: 20px 5px 20px 20px;
+  
+  width:90%;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin: 12px;
+}
+
+
+h2 {
+  font-size: 1.5rem;
+
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.encabezadoClose {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  overflow: hidden;
+  width: 25%;
+  padding: 8px;
+  
+}
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+  border-top: 1px;
+  
+}
+
+.card img {
+  margin: 8px;
+  padding: 8px;
+  width: 90%;
+  height: 250px;
+}
